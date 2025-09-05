@@ -1,7 +1,7 @@
 
 import { connect } from 'cloudflare:sockets';
 
-let userID = '';
+let userID = '888b1266-10eb-49e7-888e-5b019df62745';
 let proxyIP = '';
 let DNS64Server = '';
 //let sub = '';
@@ -38,8 +38,8 @@ let proxyhostsURL = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2NtbGl1L2
 let RproxyIP = 'false';
 const httpPorts = ["8080", "8880", "2052", "2082", "2086", "2095"];
 let httpsPorts = ["2053", "2083", "2087", "2096", "8443"];
-let 有效时间 = 7;
-let 更新时间 = 3;
+let 有效时间 = 14;
+let 更新时间 = 4;
 let userIDLow;
 let userIDTime = "";
 let proxyIPPool = [];
@@ -4568,3 +4568,4 @@ async function nginx() {
 	`
     return text;
 }
+
