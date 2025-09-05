@@ -2,13 +2,13 @@
 import { connect } from 'cloudflare:sockets';
 
 let userID = '888b1266-10eb-49e7-888e-5b019df62745';
-let proxyIP = '';
+let proxyIP = 'ProxyIP.SG.CMLiussss.net';
 let DNS64Server = '';
 //let sub = '';
 let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
 let subConfig = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvY29uZmlnL0FDTDRTU1JfT25saW5lX01pbmlfTXVsdGlNb2RlLmluaQ==');
 let subProtocol = 'https';
-let subEmoji = 'true';
+let subEmoji = 'false';
 let socks5Address = '';
 let parsedSocks5Address = {};
 let enableSocks = false;
@@ -4568,4 +4568,5 @@ async function nginx() {
 	`
     return text;
 }
+
 
